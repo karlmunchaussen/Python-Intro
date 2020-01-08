@@ -14,7 +14,6 @@ min_change = 0
 min_change_date = []
 total_change = 0
 
-# open csv
 with open(csvpath, 'r') as budget_data:
     csvreader = csv.reader(budget_data, delimiter=',')
     next(csvreader)                            
